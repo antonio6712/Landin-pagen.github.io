@@ -1,0 +1,177 @@
+/*  STYLE GUIE: 
+    0. RESET
+    1. layout
+    2. GENERIC ITEM
+    3. PARTS OF THE WEB
+    4. LIST
+    5. FORM
+    6. ANIMATIONS 
+-----------------------
+    COLORS:
+    color1 => #2c3e56
+    color2 => #34495E
+    color3 => #3498DB
+    color4 => #FFF 
+
+    */
+
+/* RESET  */
+
+/* LAYOUT */
+body{
+    text-align: center;
+    font: 300 20px/1.7;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* GENERIC ITEM */
+
+header{
+    display: flex;
+    align-items: center;
+    /* background-color: blueviolet; */
+    background: url('../img/logogif.gif')no-repeat center ;
+    background-size: cover;
+    height: 450px;
+    justify-content: center;
+
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #2c3e50;
+    height: 63px;
+}
+
+.navbar a{
+    color: #fff;
+    padding: 0 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Reggae One', cursive;
+    font: 100px;
+
+}
+
+
+/* PARTS OF THE WEB */
+.content{
+    padding: 80px 0;
+}
+
+.who{
+    background: #2c3e50;
+    color: #fff;
+}
+
+.who p{
+    max-width: 1050px;
+    margin: 0 auto;
+}
+
+.title{
+    margin-bottom: 40px;
+    font: 60px;
+    font-family: 'Reggae One', cursive;
+    text-transform: uppercase;
+}
+
+p{
+    margin-bottom: 40px;
+}
+
+.services{
+    background: #34495E;
+    color: #fff;
+}
+
+.list-services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.list-services figure{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+
+
+.list-services figure{
+    position: relative;
+    width: 150px ;
+    height: 170px;
+}
+
+.list-services figure:after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    z-index: 0;
+    background: #fff;
+    width: 150px;
+    height: 160px;
+}
+
+.list-services img{
+    position: relative;
+    z-index: 1;
+}
+
+.list-services li{
+    padding: 0 30px;
+}
+
+.list-services figure figcaption{
+    position: relative;
+    left: 0;
+    top: 0;
+    bottom: 40px;
+}
+
+.tarifas{
+    background: url('../img/cover.jfif')no-repeat center bottom;
+    background-size: cover;
+    text-align: left;
+    color: #fff;
+    text-align: justify;
+}
+
+.contain{
+    max-width: 1055px;
+    margin: 0 auto;
+}
+
+.tarifas p{
+    max-width: 450px;
+}
+
+.btn{
+    border: 2px solid #fff ;
+    padding: 10px 40px;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff; 
+}
+
+.localization{
+    color: #34495E;
+    padding-bottom: 0;
+}
+
+.localization .map img{
+    /* max-width: 100%; */
+    width: 100%;
+    height: 50%;
+}
+/* LIST */
+/* FORM  */
+/* ANIMATIONS  */
